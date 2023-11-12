@@ -4,9 +4,15 @@ function okvir(x){
       document.getElementById("jakna1").style.border="3px solid black";
     else if(x===2)
       document.getElementById("jakna2").style.border= "3px solid black";
+    else if(x===3)
+      document.getElementById("jakna3").style.border= "3px solid black";
+    else if(x===4)
+      document.getElementById("jakna4").style.border= "3px solid black";
     else if(x===0){
       document.getElementById("jakna1").style.border="none";
       document.getElementById("jakna2").style.border="none";
+      document.getElementById("jakna3").style.border="none";
+      document.getElementById("jakna4").style.border="none";
     }
 }
 
