@@ -1,0 +1,364 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.Butik{
+    background-image: url(images/butik.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    position:absolute;
+    top:0px;
+}
+
+
+.nav{
+    padding: 20px 0px;
+    width:100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    position: fixed;
+    top:0px;
+}
+
+.nav img{
+    width:70px;
+    height:70px;
+}
+
+
+.nav ul li{
+    list-style: none;
+    display: inline;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color:black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 120%;
+    padding:30px;
+    transition:0.8s ease;
+}
+
+.nav ul li:hover{
+    border-bottom: 2px solid purple;
+    padding:5px;
+}
+
+.manji1{
+    color: white;
+    margin: 100px 400px;
+    padding:10px 10px;
+    text-align: center;
+}
+
+.manji1 h1{
+    font-size: 70px;
+}
+
+.manji1 p{
+    font-size:30px ;
+}
+
+.Kraj{
+    width:100%;
+    height:20px;
+    padding:20px 0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    position:fixed;
+    bottom:0px;
+    
+}
+
+.Kraj ul li {
+    list-style: none;
+    display: inline;
+}
+
+.Kraj ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 80%;
+    padding:30px;
+}
+.Kraj img{
+    width:15px;
+    height:15px;
+    padding:0px 5px;
+}
+
+.Jakne{
+    background-color: rgb(104, 7, 67);
+    height: 1600px;
+    position: absolute;
+    top:0px;
+    width:100%;
+}
+
+.JPonuda {
+    background-color: white;
+    margin:150px 20%;
+    padding:30px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius:10px;
+
+}
+
+.JPonuda h1{
+    color:rgb(104, 7, 67);
+    text-align: center;
+    font-size:45px;
+}
+
+.JPonuda .red1 .red2{
+    display:inline;
+   
+}
+
+.JPonuda .red1 img{
+    height: 400px;
+    width: 300px;
+    padding:60px;
+}
+
+.JPonuda .red2 img{
+    height: 400px;
+    width: 300px;
+    padding:60px;
+}
+
+
+
+.JPonuda #paragraf{
+    color:rgb(104, 7, 67);
+    text-align: center;
+    font-size:22px;
+}
+
+.kolica{
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    animation-name: kolica;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+
+@keyframes kolica {
+
+    0%{
+        left: 21%;
+    }
+    100%{
+        left:77%;
+    }
+}
+
+.OdecaIObuca{
+    background-color: rgb(104, 7, 67);
+    height: 1600px;
+    position: absolute;
+    top:0px;
+    width:100%;
+}
+
+.OOPonuda {
+    background-color: white;
+    margin:150px 20%;
+    padding:30px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius:10px;
+
+}
+
+.OOPonuda h1{
+    color:rgb(104, 7, 67);
+    text-align: center;
+    font-size:45px;
+}
+
+.OOPonuda .red1 .red2{
+    display:inline;
+   
+}
+
+.OOPonuda .red1 img{
+    height: 400px;
+    width: 300px;
+    padding:60px;
+}
+
+.OOPonuda .red2 img{
+    height: 400px;
+    width: 300px;
+    padding:60px;
+}
+
+.OOPonuda img:hover{
+    border:3px solid black;
+}
+
+.OOPonuda p{
+    color:rgb(104, 7, 67);
+    text-align: center;
+    font-size:22px;
+}
+
+.Torbe{
+    background-color: rgb(104, 7, 67);
+    height: 1600px;
+    position: absolute;
+    top:0px;
+    width:100%;
+}
+
+.TPonuda {
+    background-color: white;
+    margin:150px 20%;
+    padding:30px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius:10px;
+}
+
+.TPonuda h1{
+    color:rgb(104, 7, 67);
+    text-align: center;
+    font-size:45px;
+}
+
+
+.TPonuda .red1 .red2{
+    display:inline;
+   
+}
+
+.TPonuda .red1 img{
+    height: 400px;
+    width: 300px;
+    padding:60px;
+}
+
+.TPonuda .red2 img{
+    height: 400px;
+    width: 300px;
+    padding:60px;
+}
+
+.TPonuda img:hover{
+    border:3px solid black;
+}
+
+.TPonuda p{
+    color:rgb(104, 7, 67);
+    text-align: center;
+    font-size:22px;
+}
+
+.Kontakt{
+    background-color: rgb(104, 7, 67);
+    height: 900px;
+    position: absolute;
+    top:0px;
+    width:100%;
+}
+
+.kontaktdiv {
+    background-color: white;
+    margin:150px 20%;
+    padding:30px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius:10px;
+}
+
+.kontaktdiv h1{
+    color:rgb(104, 7, 67);
+    text-align: center;
+    font-size:45px;
+}
+
+form{
+    width:50%;
+    margin-left:25%;
+    text-align: center;
+    font-size: 20px;
+}
+
+input, textarea{
+    width:100%;
+    padding:8px;
+    margin-bottom: 15px;
+    border:2px solid black;
+    color:black;
+    font-size:15px;
+}
+
+button{
+    padding: 10px 0px;
+    color:black;
+    border:2px solid black;
+    width:30%;
+    font-size:20px;
+}
+
+button:hover{
+    border:1px solid rgb(104, 7, 67);
+    background-color: rgb(238, 146, 238);
+    color:black;
+    font-weight: bold;
+}
+
+@media screen and (min-width:300px) and (max-width:420px) {
+    
+      .nav{
+        height: 170px;
+        display: block;
+      }
+
+      .nav img{
+        display: block;
+        margin:0px auto;
+      }
+   
+      .nav ul{
+        padding:2px;
+        display:block;
+        margin-top:1px;
+        text-align:center;
+      }
+
+      .nav ul li a{
+        padding: 3px;
+        margin-top:2px;
+        display: block;
+      }
+
+      .Kontakt{
+        height: 1000px;
+      }
+
+      .kontaktdiv{
+        margin:250px auto;
+        width: 80%;
+      }
+
+      button{
+        width: 80%;
+      }
+}
