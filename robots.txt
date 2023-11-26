@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+sitemap:https://github.com/jocovicka/JocovicAndjela/blob/main/sitemap.xml
