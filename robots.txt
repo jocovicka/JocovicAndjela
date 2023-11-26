@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-sitemap:https://github.com/jocovicka/JocovicAndjela/sitemap.xml
+sitemap : https://github.com/jocovicka/JocovicAndjela/sitemap.xml
