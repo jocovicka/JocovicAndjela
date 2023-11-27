@@ -1,6 +1,5 @@
-function okvir(x){
-    
-    if(x===1)
+function okvir(x) {
+    if( x===1 )
       document.getElementById("jakna1").style.border="3px solid black";
     else if(x===2)
       document.getElementById("jakna2").style.border= "3px solid black";
